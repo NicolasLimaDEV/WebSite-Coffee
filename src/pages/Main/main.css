@@ -1,0 +1,59 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #a0583c41, #00000093), url('../../assets/Bg\ Image.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main h1{
+  font-size: 72px;
+  color: #FFFADA;
+}
+
+.main h3{
+  color: #CCB9B1;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.btn-principal{
+  margin-top: 20px;
+  width: 255px;
+  height: 55px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 200;
+  background: linear-gradient(to right, #A0583C, #C08267);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 18px;
+  filter: drop-shadow(3px 3px 12px #A0583C);  
+}
+
+@media screen and (max-width: 768px){
+  .main h1{
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .main{
+    text-align: center;
+  }
+
+  .main h1{
+    font-size: 30px;
+  }
+
+  .main h3{
+    padding: 0 10px;
+    font-size: 18px;
+  }
+}

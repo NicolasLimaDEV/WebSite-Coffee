@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --fundo: #FFFADA;
+  --marrom-escuro: #A0583C;
+  --marrom-claro: #C08267;  
+}
+
+/* Background and Font */
+body, html{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

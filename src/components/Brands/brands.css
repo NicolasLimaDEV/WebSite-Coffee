@@ -1,0 +1,20 @@
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+
+article img{
+  padding: 50px;
+  margin-right: 0.50rem;
+}
+
+@media screen and (max-width: 1024px){
+  article{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px;
+  }
+}
